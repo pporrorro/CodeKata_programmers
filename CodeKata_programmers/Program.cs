@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Test 용
-            int input = Convert.ToInt32(Console.ReadLine());
+            Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
         }
     }
