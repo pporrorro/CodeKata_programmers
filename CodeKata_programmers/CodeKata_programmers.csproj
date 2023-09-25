@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\TeamSparta\CodeKata_programmers\CodeKata_programmers\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\TeamSparta\CodeKata_programmers\CodeKata_programmers\.editorconfig" />
+  </ItemGroup>
+
 </Project>

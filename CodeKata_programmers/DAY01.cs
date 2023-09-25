@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*
-@ DATE   : 2023.8.24
-@ AUTHOR : 임현진
-*/
+
 namespace CodeKata_programmers
 {
-
-    internal class DAY1
+    /*
+    @ DATE   : 2023.8.24 Thu
+    @ AUTHOR : 임현진
+    */
+    internal class DAY01
     {
         // 1. 짝수 구하기
         // 정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환하는 함수, solution을 완성하기.
@@ -27,7 +27,7 @@ namespace CodeKata_programmers
         }
 
         // 2. 평균 구하기
-        // 정수를 담고 있는 배열 arr의 평균값을 return하는 함수, solution을 완성하기.
+        // 정수를 담고 있는 배열 arr의 평균값을 리턴하는 함수 완성하기.
 
         public double solution2(int[] arr)
         {
@@ -44,7 +44,7 @@ namespace CodeKata_programmers
         }
 
         // 3. 자릿수 더하기
-        // 자연수 N이 주어지면, N의 각 자릿수의 합을 구해서 return 하는 solution 함수를 만들어 주세요.
+        // 자연수 N의 각 자릿수의 합을 구해서 리턴하는 함수 완성하기.
         // ex) N = 123 이면 1 + 2 + 3 = 6 을 반환.
 
         // string 변환. 잘라서 다시 int로 변환 후 바로바로 answer에 넣어주기
