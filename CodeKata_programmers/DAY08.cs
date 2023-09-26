@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +36,7 @@ namespace CodeKata_programmers
 
             return answer;
         }
-        
+
         // 13. 콜라츠 추측
         // 주어진 수가 1이 될 때까지 다음 작업을 반복하면, 모든 수를 1로 만들 수 있다는 추측. 
         // 1-1. 입력된 수가 짝수라면 2로 나눕니다.

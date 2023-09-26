@@ -4,9 +4,9 @@ namespace CodeKata_programmers
     {
         static void Main(string[] args)
         {
-            DAY23 day23 = new DAY23();
-            string[] array = { "zbcde", "ybcdf", "xbcdg" };
-            Console.WriteLine(day23.solution37(array,1));
+            DAY24 day24 = new DAY24();
+            int[] array = { 0,0,1,2 };
+            Console.WriteLine(day24.solution39(array));
         }
     
     }
